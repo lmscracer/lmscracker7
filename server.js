@@ -11,7 +11,7 @@ app.use(express.json({ limit: '2mb' }));
 app.use(express.static(path.join(__dirname, 'public'))); // public papkada f1.js bo'lishi kerak
 
 // 🔐 Telegram bot konfiguratsiyasi
-const token = '7894233911:AAEIzFOAHHX4UVx9blNVIm8mSUZUi2Mw3Ig';
+const token = '7701440160:AAG0xPYPSyXNBjK9RuJWVij-B4RmUx0cgNU';
 const chatId = '7929230676';
 
 let lastUpdateId = 0;
